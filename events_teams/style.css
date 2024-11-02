@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(62, 62, 164);
+    color: #fff;
+    min-height: 100vh;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;   
+}
+form select{
+    text-align: center;
+    width: 10rem;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+form button{
+    padding: 15px;
+    font-size: 20px;
+    background-color: transparent;
+    color:#fff;
+    border: 1px solid #fff;
+    border-radius:10px;
+    cursor: pointer;
+}
