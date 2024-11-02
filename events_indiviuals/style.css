@@ -28,7 +28,7 @@ form select{
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
 }
-form button{
+button{
     padding: 15px;
     font-size: 20px;
     background-color: transparent;
